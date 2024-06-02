@@ -1,6 +1,10 @@
 <?php
-function showMessage(string $message) : void {
-        echo $message . PHP_EOL;
+    function showMessage(string $message) : void {
+            echo $message . PHP_EOL;
+        };
+
+    function showMessageHTML(string $message) : void {
+        echo "$message <br/>";
     };
 
     function deposit(float $balance, float $value) : float {
